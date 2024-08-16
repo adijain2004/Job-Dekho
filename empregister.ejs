@@ -1,0 +1,18 @@
+<%- include('./partials/header'); %>
+<center>
+    <Br><br>
+<form action="/empregisterresult" method="POST">
+    <fieldset>
+      <h4>Employer Registration</h4><br>
+      <label>Email ID</label>
+      <input type ="text" id = 'userid' name="userid" required>
+      <br><br>
+      <label>Password</label>
+      <input type="password" id = "password" name="password" required>
+      <br><br>
+      <button type ="submit">Submit</button>
+      <br>
+      </fieldset>
+   </form>
+</center>
+   <%- include("./partials/footer");%>

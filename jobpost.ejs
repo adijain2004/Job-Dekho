@@ -1,0 +1,69 @@
+<%- include('./partials/header'); %>
+<center>
+    <Br><br>
+<form action="/jobpostresult" method="POST">
+    <fieldset>
+      <h4>Post a Job</h4><br>
+      <table border=1><tr><td>
+        <label>Job title</label>
+      </td>
+      <td>:</td>
+      <td> <input type ="text" id = 'Jobtitle' name="Jobtitle" required></td>
+    </tr>
+<tr>
+    <td>  <label>Skillset</label></td>
+    <td>:</td>
+    <td>  <label><input type ="text" id = 'Skillset' name="Skillset" required></label></td>
+</tr>
+<tr>
+  <td>   <label>Last date</label></td>
+  <td>:</td>
+    <td>  <input type ="text" id = 'Lastdate' name="Lastdate" required></td>
+  </tr>
+  <tr>
+    <td>     <label>Experience</label></td>
+    <td>:</td>
+    <td>  <input type ="text" id = 'Experience' name="Experience" required></td>
+  </tr>
+
+  <tr>
+    <td>     <label>Salary</label></td>
+    <td>:</td>
+    <td>  <input type ="text" id = 'Salary' name="Salary" required></td>
+  </tr>
+
+  <tr>
+    <td>     <label>Location</label></td>
+    <td>:</td>
+    <td>  <input type ="text" id = 'Location' name="Location" required></td>
+  </tr>
+
+  <tr>
+    <td>     <label>Joining period</label></td>
+    <td>:</td>
+    <td>  <input type ="text" id = 'Joiningperiod' name="Joiningperiod" required></td>
+  </tr>
+
+  <tr>
+    <td>     <label>Job profile</label></td>
+    <td>:</td>
+    <td>  <input type ="textarea" id = 'Jobprofile' name="Jobprofile" required></td>
+  </tr>
+
+  <tr>    
+    <td><label>Work from home</label></td>
+    <td>:</td>
+     <td> <select name="wfhstatus" id="wfhstatus">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+      </select></td>
+  </tr>
+
+    <tr><td>
+      <button type ="submit">Submit</button></td>
+    </tr>
+    </table>
+      </fieldset>
+   </form>
+</center>
+   <%- include("./partials/footer");%>

@@ -1,0 +1,22 @@
+<%- include('./partials/header'); %>
+<form action="/loginauth" method="POST">
+    <fieldset> 
+      <br><br>
+   <center>  <h4>User Login</h4></center> <br>
+      <table align="center" cellpadding="10">
+        <tr><td> <label>User ID</label></td>
+          <td><input type ="text" id = 'userid' name="userid" required></td>
+      </tr>
+      <tr><td> <label>Password</label></td>
+        <td> <input type="password" id = "password" name="password" required>
+        </td>
+    </tr>
+    <tr><td colspan="2" align="center"><br> <button type ="submit">Submit</button></td></tr>
+    </table>
+          
+        <br>
+      <center> Not Registered? <a href="register" > Click Here to Register !</a></center> 
+    </fieldset>
+   </form>
+   <br><br> <br><br>
+   <%- include("./partials/footer");%>

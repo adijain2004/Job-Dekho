@@ -1,0 +1,65 @@
+<%- include('./partials/header'); %>
+<center>
+    <Br><br>
+<form action="/empupdateresult" method="POST">
+    <fieldset>
+      <h4>Update Employer Profile</h4><br>
+      <table border=1><tr><td>
+        <label>First Name</label>
+      </td>
+      <td>:</td>
+      <td> <input type ="text" id = 'firstname' name="firstname" required></td>
+    </tr>
+<tr>
+    <td>  <label>Last Name</label></td>
+    <td>:</td>
+    <td>  <label><input type ="text" id = 'lastname' name="lastname" required></label></td>
+</tr>
+<tr>
+  <td>  <label>Emali ID</label></td>
+  <td>:</td>
+  <td>  <label><input type ="text" id = 'emailid' name="emailid" required></label></td>
+</tr>
+
+<tr>
+  <td>   <label>Mobile No</label></td>
+  <td>:</td>
+    <td>  <input type ="text" id = 'mobileno' name="mobileno" required></td>
+  </tr>
+  <tr>
+    <td>     <label>Address</label></td>
+    <td>:</td>
+    <td>  <input type ="textarea" id = 'address' name="address" required></td>
+  </tr>
+  <tr>    
+    <td><label>State</label></td>
+    <td>:</td>
+     <td> <select name="state" id="state">
+        <option value="">Select State..</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Rajasthan">Rajasthan</option>
+      </select></td>
+  </tr>
+  <tr>
+  <td><label>City</label></td>
+  <td>:</td>
+    <td><select name="city" ic="city">
+        <option value="">Select City..</option>
+        <option value="Bhopal">Bhopal</option>
+      </select></td></tr>
+  <tr><td>  <h5>Education</h5></td></tr>
+<tr>
+     <td> <label>Upload Resume</label></td>
+     <td>:</td>
+    <td>
+      <input type="text" id = "password" name="password" required>
+    </td></tr>
+    <tr><td>
+      <button type ="submit">Submit</button></td>
+    </tr>
+    </table>
+      </fieldset>
+   </form>
+</center>
+   <%- include("./partials/footer");%>

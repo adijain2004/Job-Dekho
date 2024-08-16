@@ -1,0 +1,1 @@
+SELECT * FROM candidatemaster WHERE userid = 'adi' and password='123'

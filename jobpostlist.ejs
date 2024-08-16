@@ -1,0 +1,25 @@
+<%- include('./partials/header'); %>
+<center>
+    <Br><br>
+<form action="/jobpostlist" method="POST">
+    <fieldset>
+      <table border=1 width="800" style="border-style: dashed;">
+        <tr>
+        <th>Job title</th>
+        <th>Location</th>
+        <th> Posting date</th>
+        <th>Joining period</th>
+    </tr>
+<% sqldata.forEach(function(data,index){ %>
+<tr>
+    <td> <%= data.jobtitle %> </td>
+    <td> <%= data.location %> </td>
+    <td> <%= data.postingdate %> </td>
+    <td> <%= data.joiningperiod %> </td>
+</tr>
+<% }) %>
+    </table>
+ </fieldset>
+</center>
+
+<%- include("./partials/footer");%>
