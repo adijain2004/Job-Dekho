@@ -56,10 +56,9 @@ http://localhost:3000/
 This app uses MySQL. You'll need to:
 
 Create a database (e.g., jobdekho)
-
 Add a table for user registration (e.g., users) with columns like userid and password
-
 Configure your MySQL connection in app.js
 
 
+All UI preview images are available in the screenshots folder for a quick visual overview of "Job Dekho".
 
