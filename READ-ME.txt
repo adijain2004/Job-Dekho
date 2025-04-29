@@ -1,2 +1,65 @@
-This is a job portal which helps people in finding jobs according to their skillset.
-This has been built using HTML, CSS , javascript, Node js, express js and MySQL.
+Job Dekho – A Job Portal Web Application
+
+"Job Dekho" is a simple and functional job portal web application that allows users to register, log in, and explore job listings. This project demonstrates backend integration with MySQL, Express.js, and EJS templating on Node.js, along with a responsive frontend built with HTML, CSS (Bootstrap), and JavaScript.
+
+---
+
+📌 Features
+
+- 🧾 User Registration & Login (via `register.ejs`)
+- 📋 Display static job listings and testimonials
+- 📄 Multiple frontend pages (Home, About, Jobs, Categories, Testimonials)
+- 📦 Session management using `express-session`
+- 🍪 Cookie parsing using `cookie-parser`
+- 🎨 Templating using EJS and Pug
+- 🗄️ MySQL database integration for storing user data
+
+---
+
+ 🛠️ Technologies Used
+
+- Frontend: HTML, CSS (Bootstrap 5), JavaScript, Owl Carousel
+- Backend: Node.js, Express.js, EJS, Pug
+- Database: MySQL
+- Sessions: `express-session`
+- Templating Engines: EJS, Pug
+- Others: `cookie-parser`, Font Awesome
+
+---
+
+ 🚀 How to Run Locally
+
+> 📝 This project currently runs only on a local development server.
+
+1. Clone the Repository
+
+git clone https://github.com/your-username/job-dekho.git
+cd job-dekho
+
+2. Install Dependencies
+
+npm install
+
+3. Start the Server
+
+node app.js
+
+4. View in Browser
+
+Go to:
+http://localhost:3000/
+
+
+
+
+🗃️ Database Setup
+This app uses MySQL. You'll need to:
+
+Create a database (e.g., jobdekho)
+
+Add a table for user registration (e.g., users) with columns like userid and password
+
+Configure your MySQL connection in app.js
+
+
+
