@@ -60,5 +60,5 @@ Add a table for user registration (e.g., users) with columns like userid and pas
 Configure your MySQL connection in app.js
 
 
-All UI preview images are available in the screenshots folder for a quick visual overview of "Job Dekho".
+All UI preview images (demo) are available in the screenshots folder for a quick visual overview of "Job Dekho".
 
